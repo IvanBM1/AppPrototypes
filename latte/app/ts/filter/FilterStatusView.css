@@ -1,0 +1,44 @@
+.buttonsFilter {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.buttonFilter {
+    align-items: center;
+    background-color: var(--divider-color);
+    color: var(--secondary-text);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25px;
+}
+
+.buttonFilter.right {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buttonFilter.center {
+    border-radius: 0px;
+}
+
+.buttonFilter.left {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.active {
+    background-color: var(--accent-color);
+    color: var(--text-icons);
+}
+
+.buttonFilter .material-icons {
+    padding-left: 5px;
+}
+
+.str {
+    padding-right: 5px;
+}

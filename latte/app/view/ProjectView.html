@@ -1,0 +1,73 @@
+<div class="container" data-class="ProjectViewBase">
+
+    <!-- MODAL VIEW [INFO] -->
+    <div data-property="containerModal"></div>
+
+    <!-- LOADER VIEW -->
+    <div class="cntLoader" data-property="containerLoader"></div>
+
+    <!-- FLOAT BUTTON DELETE ITEMS SELECTED -->
+    <div class="btnDeleteSelected" data-property="btnDeleteSelected">
+        <i class="material-icons">delete</i>
+    </div>
+
+    <!-- FLOTA BUTTON ARCHIVE ITEMS SELECTED -->
+    <div class="btnArchiveSelected" data-property="btnArchiveSelected">
+        <i class="material-icons" data-property="btnArchiveSelectedIcon">archive</i>
+    </div>
+
+    <div class="head">
+
+        <!-- NAME OF PROJECT AND BUTTON RETURN -->
+        <div class="heading">
+            <div class="btnReturn" data-property="btnReturn"><i class="material-icons">chevron_left</i></div>
+            <div class="nameProject" data-property="nameProject"></div>
+        </div>
+
+        <!-- OPTIONS OF PROJECT [DELETE, ARCHIVE, SHARE]-->
+        <div class="btnOpt">
+            <div class="btnIcon"><i class="material-icons" data-property="btnDelete">delete</i></div>
+            <div class="btnIcon"><i class="material-icons" data-property="btnArchive">archive</i></div>
+            <div class="btnIcon"><i class="material-icons" data-property="btnShare">share</i></div>
+            <div data-property="containerNotifications"></div>
+            <div class="btnIcon btnSessionUser">
+                <i class="material-icons" data-property="btnSessionUser">account_circle</i>
+                <div class="popover" data-property="popover">
+                    <div class="btnCloseSession" data-property="btnCloseSession"></div>
+                </div>
+            </div>
+            <div class="menuMobile" data-property="menuMobile">
+                <div class="iconMenu"><i class="material-icons" data-property="iconMenu">menu</i></div>
+                <div class="containerMenuMobile" data-property="containerMenuMobile">
+                    <div class="itemMenu" data-property="btnDeleteMobile"></div>
+                    <div class="itemMenu" data-property="btnArchiveMobile"></div>
+                    <div class="itemMenu" data-property="btnShareMobile"></div>
+                    <div class="divider"></div>
+                    <div class="itemMenu" data-property="btnSessionMobile"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="containerButtonsCategory">
+
+        <!-- FILTER [WORK, ARCHIVED]-->
+        <div class="cntFilterState" data-property="cntFilterState"></div>
+
+        <!-- FILTER [DESK, MOVIL, TOWVIEW ]-->
+        <div class="cntFilterDevices" data-property="cntFilterDevices"></div>
+
+        <!-- INPUT NEW CATEGORY -->
+        <div class="inpCategory" data-property="inpCategory">
+            <input type="text" data-property="inpCategoryText"/>
+            <div class="btnAddCategory" data-property="btnAddCategory">+</div>
+        </div>
+    </div>
+
+    <div class="itemsCategory" data-property="itemsCategory">
+        <div class="itemsCategoryMessage" data-property="itemsCategoryMessage"></div>
+        <!-- ALL CATEGORIES -->
+    </div>
+
+</div>

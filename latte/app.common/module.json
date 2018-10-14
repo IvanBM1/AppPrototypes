@@ -1,0 +1,25 @@
+{
+  "connection": {
+    "file": "../../connection.json"
+  },
+  "records": [
+    "category",
+    "conversation",
+    "comment",
+    "file",
+    "history",
+    "image",
+    "notification",
+    "project",
+    "user"
+  ],
+  "module-include": [
+    "latte",
+    "latte.data",
+    "latte.element",
+    "latte.ui"
+  ],
+  "before-make": [
+    "js/mysql-dump.js"
+  ]
+}

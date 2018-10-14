@@ -1,0 +1,56 @@
+/* 
+    Document   : ColumnHeader
+    Created on : Oct 3, 2012, 12:47:30 PM
+    Author     : josemanuel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.latte-item.column-header{
+    padding: 12px 0;
+    position: relative;
+}
+
+.latte-item.column-header.sortable{
+    cursor: pointer;
+}
+
+.latte-item.column-header > .label-content{
+    margin-left: 10px;
+}
+
+.latte-item.column-header .resizer{
+    position: absolute;
+    background: transparent;
+    width: 4px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: ew-resize;
+}
+
+.latte-item.column-header .resizer:hover,
+.latte-item.column-header.resizing .resizer{
+    background-color: Highlight;
+}
+
+.latte-item.column-header{
+    color: #93A0B3;
+    border: none;
+    background: white;
+    background: #ffffff; /* Old DetailViews */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f9fafb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f9fafb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f9fafb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f9fafb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f9fafb 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffffff 0%,#f9fafb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9fafb',GradientType=0 ); /* IE6-9 */
+}
+
+.latte-item.column-header:hover,
+.latte-item.column-header.resizing{
+    /*color: black;*/
+    border-color: #93A0B3;
+    background: #E8F3FF;
+}

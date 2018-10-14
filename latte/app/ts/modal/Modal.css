@@ -1,0 +1,133 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.modalContent {
+    background-color: var(--text-icons);
+    border-radius: 2px;
+    margin: auto;
+    width: 50%;
+}
+
+.modalHeader {
+    background: var(--primary-color);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalTitle {
+    color: white;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.modalBody {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.modalBody .material-icons {
+    color: var(--accent-color);
+    font-size: 3em;
+    margin: 10px 10px 0 10px;
+}
+
+.containerMessage {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.modalInput {
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.modalMessage {
+    color: var(--primary-text);
+    margin: 30px 30px 10px 0;
+    text-align: justify;
+}
+
+.modalMessageSub {
+    color: var(--secondary-text);
+    font-size: 12px;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: flex-end;
+    height: 44px;
+}
+
+.btnModalOk {
+    border-radius: 5px;
+    color: var(--accent-color);
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnModalCancel {
+    border-radius: 5px;
+    color: var(--secondary-text);
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 481px) and ( max-width: 768px) {
+    .modalContent {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modalContent {
+        width: 90%;
+    }
+}
+
+@media screen and (max-height: 480px) {
+    .modalContent {
+        width: 90%;
+    }
+}

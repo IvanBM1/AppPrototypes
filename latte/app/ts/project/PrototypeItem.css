@@ -1,0 +1,43 @@
+.itemPrototype {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    height: 100px;
+    margin: 15px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.namePrototype {
+    background-color: var(--primary-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: var(--text-icons);
+    cursor: text;
+    font-size: 1em;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: clip;
+    max-width: 150px;
+}
+
+.namePrototypeEdit {
+    background-color: transparent;
+    color: var(--primary-text);
+}
+
+.checkboxPrototype {
+    border-bottom-left-radius: 5px;
+    margin-left: 0;
+    margin-top: 56px;
+    position: absolute
+}
+
+.imagePrototype {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.imagePrototype img {
+    width: 100%;
+}

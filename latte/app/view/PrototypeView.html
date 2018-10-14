@@ -1,0 +1,75 @@
+<div class="prototypeView" data-class="PrototypeViewBase">
+
+        <!-- MODAL VIEW [INFO] -->
+        <div data-property="containerModal"></div>
+
+        <!-- MODAL ITEM -->
+        <div class="cntLoader" data-property="containerLoader"></div>
+
+        <!-- PICTURE OF PROTOTYPE-->
+        <div class="containerImage" data-property="containerImage"></div>
+
+        <div class="navbarPrototype" data-property="navbarPrototype">
+
+                <div class="navbarRigth">
+                        <div class="btnReturnPrototype" data-property="btnReturnPrototype"><i class="material-icons">keyboard_arrow_left</i></div>
+                        <div class="namePrototypeView" data-property="namePrototype"></div>
+                </div>
+
+                <div class="navbarCenter view-desktop">
+                        <div class="btnShowMarks"><i class="material-icons" data-property="btnShowMarks">visibility_off</i></div>
+                        <div class="btnInfoPrototype" data-property="btnInfoPrototype"><i class="material-icons">info</i></div>
+                        <div class="btnInfoPrototype"><i class="material-icons"  data-property="btnDevice">phone_iphone</i></div>
+                        <div class="btnInfoPrototype"><i class="material-icons"  data-property="btnHistory">history</i></div>
+
+                        <div class="historyList" data-property="historyList">
+                            <div class="historyItem" data-class="HistoryItemBase"></div>
+                        </div>
+
+                        <label for="fileUpdate" class="btnInfoPrototype">
+                            <i class="material-icons"  data-property="btnUpdate">cloud_upload</i>
+                            <input type="file" id="fileUpdate" class="fileUpdate" data-property="fileUpdate"/>
+                        </label>
+                </div>
+
+                <div class="navbarLeft view-desktop">
+                        <div class="btnDelete" data-property="btnDelete"><i class="material-icons">delete</i></div>
+                        <div class="btnArchive" data-property="btnArchive"><i class="material-icons" data-property="iconArchive">archive</i></div>
+                        <div class="btnShare" data-property="btnShare"><i class="material-icons">share</i></div>
+                        <div data-property="containerNotifications"></div>
+                        <div class="btnSessionUser">
+                                <i class="material-icons" data-property="btnSessionUser">account_circle</i>
+                                <div class="popover" data-property="popover">
+                                        <div class="btnCloseSession" data-property="btnCloseSession"></div>
+                                </div>
+                        </div>
+
+                        <div class="menuMobile" data-property="menuMobile">
+                            <div class="iconMenu"><i class="material-icons" data-property="iconMenu">menu</i></div>
+                            <div class="containerMenuMobile" data-property="containerMenuMobile">
+                                <div class="itemMenu" data-property="btnShowMarksMobile"></div>
+                                <div class="itemMenu" data-property="btnInfoMobile"></div>
+                                <div class="itemMenu" data-property="btnDeviceMobile" style="display: none;"></div>
+                                <div class="itemMenu" data-property="btnHistoryMobile" style="display: none;"></div>
+                                <label for="fileUpdate"  class="itemMenu" data-property="btnUploadMobile"></label>
+                                <div class="divider"></div>
+                                <div class="itemMenu" data-property="btnDeleteMobile"></div>
+                                <div class="itemMenu" data-property="btnArchiveMobile"></div>
+                                <div class="itemMenu" data-property="btnShareMobile"></div>
+                                <div class="divider"></div>
+                                <div class="itemMenu" data-property="btnSessionMobile"></div>
+                            </div>
+                        </div>
+
+                </div>
+
+                <!-- DIALOG INFO GENERAL PROTOTYPE -->
+                <div class="cntInfoPrototype" data-property="infoPrototype">
+                        <div class="headInfoPrototype">
+                                <div class="datePrototype" data-property="datePrototype"></div>
+                                <span class="btnCloseInfo" data-property="btnCloseInfo">&times;</span>
+                        </div>
+                        <div class="descriptionPrototype" data-property="descriptionPrototype"></div>
+                </div>
+        </div>
+</div>

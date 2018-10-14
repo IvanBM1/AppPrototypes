@@ -1,0 +1,79 @@
+.itemCategory {
+    padding: 10px;
+}
+
+.headingCategory {
+    display: flex;
+}
+
+.headCategory {
+    border-bottom-color: var(--secondary-text);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.nameCategory {
+    color: var(--primary-text);
+    width: 100%;
+}
+
+.btnExpandCategory,
+.btnDelCategory,
+.btnArchiveCategory,
+.btnShareCategory {
+    color: var(--divider-color);
+    cursor: pointer;
+    max-width: 28px;
+    margin: 0 10px;
+}
+
+.infoDragMessage {
+    color: var(--divider-color);
+    display: none;
+    font-size: 1em;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.itemsPrototype {
+    align-items: center;
+    border-color: var(--divider-color);
+    border-style: dashed;
+    border-width: 2px;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0;
+    z-index: -1;
+}
+
+.itemsPrototype .button-add {
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    color: var(--text-icons);
+    cursor: pointer;
+    font-size: 40px;
+    height: 50px;
+    margin: 13px 40px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+.itemsPrototypeMessage {
+    color: #dedede;
+    font-size: 2em;
+    margin: 20px;
+    text-align: center;
+}
+
+.cntLoader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+

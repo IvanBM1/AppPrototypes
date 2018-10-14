@@ -1,0 +1,51 @@
+pathImages http://prototypes.local/uploads/
+shareHost http://prototypes.local/viewer.php?
+
+appName Visor de Prototipos
+accept Aceptar
+active Activo
+anonymous Anónimo
+archive Archivo
+archived Archivar
+allPrototypes todos los prototipos
+affair Asunto
+cancel  Cancelar
+changeDevice Cambiar dispositivo
+closeSession Cerrar Sesión
+comment Comentario
+comments Comentarios
+copy Copiar
+delete Borrar
+descriptionDefault Aquí va la descripción
+desktop Escritorio
+deskVersion Versión de Escritorio
+dragimages Arrastra imágenes aquí
+elementsSelected los elementos seleccionados
+errorSession ¡Usuario o contraseña invalido!
+goplek Goplek
+hideItems Ocultar items
+history Historial
+information Información
+loading Cargando
+modalConfirmArchived ¿Estás seguro de que deseas archivar
+modalConfirmRecovery ¿Estás seguro de que deseas recuperar
+modalConfirmDelete ¿Estás seguro de que deseas eliminar
+modalConfirmDeleteSub Esta acción no se puede deshacer
+mobile Móvil
+mobileVersion Versión móvil
+name Nombre
+newCategory Nueva Categoría
+newComment Nuevo Comentario
+newImage Nueva Imagen
+newProject Nuevo Proyecto
+login Iniciar Sesión
+passwordSession Contraseña
+recovery Recuperar
+send Enviar
+sendComments Envíanos tus comentarios
+share Compartir
+showItems Mostrar items
+update Actualizar
+user Usuario
+username Nombre de Usuario
+withoutElements Sin Elementos

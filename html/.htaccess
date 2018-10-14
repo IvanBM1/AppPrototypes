@@ -1,0 +1,8 @@
+RewriteEngine on
+
+AddHandler php5-script .php
+
+php_flag magic_quotes_gpc off
+
+RewriteRule ^viewer/([^/\.]+)$ viewer.php?guid=$1
+RewriteRule ^viewer/([^/\.]+)/([^/\.]+)$ viewer.php?recordName=$1&recordId=$2

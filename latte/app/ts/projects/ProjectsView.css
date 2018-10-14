@@ -1,0 +1,196 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.containerTitle {
+    background: var(--primary-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.containerTitle .title {
+    color: var(--text-icons);
+    cursor: default;
+    font-size: 2.7em;
+    padding-left: 15px;
+}
+
+.navbarRigth i {
+    font-size: 2em;
+    color: var(--text-icons);
+    display: flex;
+    cursor: pointer;
+}
+
+.navbarRigth .containerNotifications {
+    margin: 10px;
+}
+
+.navbarRigth .material-icons.btnSessionUser {
+    margin: 10px 10px 10px 0;
+}
+
+.popover {
+    background-color: var(--text-icons);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    height: 40px;
+    position: absolute;
+    right: 55px;
+    right: 10px;
+    top: 50px;
+    width: 150px;
+}
+
+.btnCloseSession {
+    color: var(--primary-text);
+    cursor: pointer;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-align: left;
+
+}
+
+.btnSessionUser {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.btnSessionUser i {
+    color: var(--text-icons);
+    cursor: pointer;
+    font-size: 2em;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.filter {
+    align-self: flex-end;
+    display: flex;
+    margin: 85px 50px 0 0;
+}
+
+.itemsProject {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 0;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.itemsProjectMessage {
+    align-items: center;
+    color: #dedede;
+    display: flex;
+    font-size: 2em;
+    height: 100px;
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+}
+
+/*---------------------------Project Item --------------------------------*/
+.itemProject {
+    cursor: pointer;
+    height: 100px;
+    margin: 15px;
+    width: 115px;
+}
+
+.iconProject {
+    background-color: var(--divider-color);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: var(--secondary-text);
+    height: 75px;
+    text-align: center;
+    width: 115px;
+}
+
+.iconProject i {
+    font-size: 75px;
+}
+
+.iconNameProject {
+    background-color: var(--primary-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: var(--text-icons);
+    cursor: text;
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.iconNameProjectEdit {
+    background-color: transparent;
+    color: var(--primary-text);
+}
+
+.button-addProject {
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    color: var(--text-icons);
+    cursor: pointer;
+    font-size: 40px;
+    height: 50px;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+.itemButton {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin: 15px;
+    width: 115px;
+}
+
+.button-add {
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    color: var(--text-icons);
+    cursor: pointer;
+    font-size: 40px;
+    height: 50px;
+    margin: 13px 49px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .filter {
+        margin: 75px 50px 0 0;
+    }
+}
+
+@media screen and (max-height: 480px) {
+
+    .filter {
+        margin: 75px 50px 0 0;
+    }
+}

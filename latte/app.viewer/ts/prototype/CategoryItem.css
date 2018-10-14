@@ -1,0 +1,9 @@
+.selectCategory{
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-icons);
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    padding-right: 5px;
+}

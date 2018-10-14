@@ -1,0 +1,65 @@
+.menuMobile{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: none;
+}
+
+.iconMenu i{
+    color: var(--text-icons);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.containerMenuMobile{
+    position: absolute;
+    right: 0;
+    background-color: var(--text-icons);
+    border-radius: 2px;
+    width: 185px;
+    top: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+}
+
+.containerMenuMobile .divider{
+    border-bottom: solid 2px var(--accent-color);
+}
+
+.itemMenu{
+    padding: 4px 15px;
+    border-bottom: solid 1px var(--divider-color);
+    cursor: pointer;
+}
+
+.itemMenu:hover{
+    background-color: var(--divider-color);
+}
+
+@media screen and (max-width: 480px){
+    .menuMobile{
+        display: flex;
+    }
+
+    .btnShowMarks,
+    .btnInfoPrototype,
+    .btnInfoPrototype i{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .menuMobile{
+        display: flex;
+    }
+
+    .btnShowMarks,
+    .btnInfoPrototype,
+    .btnInfoPrototype i{
+        display: none;
+    }
+}

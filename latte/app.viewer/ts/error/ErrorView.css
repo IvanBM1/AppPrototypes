@@ -1,0 +1,22 @@
+.errorView{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.errorImage{
+    max-width: 416px;
+    width: 100%;
+}
+
+.errorMessage{
+    font-size: 2em;
+    margin: 20px;
+    color: var(--accent-color);
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+}

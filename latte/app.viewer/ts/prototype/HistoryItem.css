@@ -1,0 +1,28 @@
+.historyList{
+    position: absolute;
+    top: 60px;
+    background-color: var(--text-icons);
+    width: 180px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.historyItem{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 0.85em;
+    width: 100%;
+}
+
+.historyItem:hover{
+    background: var(--accent-color);
+    color: var(--text-icons);
+    border-radius: 2px;
+}

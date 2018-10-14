@@ -1,0 +1,9 @@
+{
+  "connection": {
+    "file": "../../connection.json"
+  },
+  "module-include": [
+    "app.common"
+  ],
+  "records":[]
+}
